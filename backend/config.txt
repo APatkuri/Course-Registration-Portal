@@ -1,0 +1,9 @@
+{
+    "pool" : {
+        "user": "postgres",
+        "host": "localhost",
+        "database": "IITBASC",
+        "password": "aditya1811",
+        "port": 5432
+    }
+}

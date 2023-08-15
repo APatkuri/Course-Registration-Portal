@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Oswald&display=swap');
+
+
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-left: 50px;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.login2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.uname{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.uname input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1.5px solid black;
+}
+
+.pswd{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pswd input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1.5px solid black;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 3px;
+    margin: 30px;
+    width: 150px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(43, 35, 97, 0.2);
+    transition: 0.4s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 0.897);
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: #9041eb;
+  }
